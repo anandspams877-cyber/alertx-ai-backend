@@ -44,7 +44,7 @@ async def predict(file: UploadFile = File(...)):
 
     results = model.predict(
         source=image,
-        imgsz=640,
+        imgsz=320,
         conf=0.25,
         device="cpu",
         verbose=False
