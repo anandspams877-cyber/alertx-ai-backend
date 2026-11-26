@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+alertx_mobile/
+.git/
+.DS_Store
+check_setup.py
+ai_engine/predict.py
+ai_engine/test_images/
